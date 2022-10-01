@@ -7,7 +7,9 @@ Retrieves satellite images using KMA Open-API and converts them to a single GIF 
  - [KMA Open-API](https://www.data.go.kr/data/15058167/openapi.do) by Korea Meteorological Administration
  - [AnimatedGif package](https://github.com/mrousavy/AnimatedGif) by mrousavy
  
-## Bugs
+## Bugs & Todos
+
+- Add a feature to change gif speed.
 
 - Program is not functioning when optional arguments are not passed.
 
