@@ -45,4 +45,4 @@ stig 1 10 ir ko 20221001 16 out output
 
 Output:
 
-![output](../img/out_resized.gif)
+![output](img/output_resized.gif)
