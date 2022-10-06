@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
-using SITG;
 
-namespace stig
+namespace SITG
 {
 	static internal class SITGmain
 	{
@@ -12,7 +11,7 @@ namespace stig
 ($@"
 ===== Usage
 
-stig <pageNo> <numOfRows> <data> <area> <time> <interval> <(opt) filename> <(opt) directory>
+sitg <pageNo> <numOfRows> <data> <area> <time> <interval> <(opt) filename> <(opt) directory>
 
 -- data
 ir: 적외영상
@@ -78,6 +77,10 @@ YYYYMMDD 양식으로 입력
 
 									return imageURLs.Length;
 								}
+							}
+							else
+							{
+								Console.WriteLine($"Errorcode: {jResponse["response"]?["header"]?["resultCode"]?.ToString()}");
 							}
 						}
 					}

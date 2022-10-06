@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 
-namespace stig
+namespace SITG
 {
 	internal static class Response
 	{

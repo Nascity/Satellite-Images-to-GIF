@@ -1,4 +1,4 @@
-﻿namespace stig
+﻿namespace SITG
 {
 	static internal class Downloader
 	{

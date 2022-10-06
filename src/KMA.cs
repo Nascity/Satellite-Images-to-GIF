@@ -5,7 +5,7 @@ namespace SITG
 	internal class KMA
 	{
 		#region 키
-		private readonly string key = "key";
+		private readonly string key = "WuYigYpzVdnTnYYq9TrIRJtcQmYHHevRI2ljxaarYXFGuiv6RbaZXbAOAeie9MGApsdH%2B8hDjGb5YKJ8cv5kIw%3D%3D";
 		private readonly string ver = "0.1";
 		#endregion
 

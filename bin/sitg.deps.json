@@ -6,13 +6,13 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "stig/1.0.0": {
+      "sitg/1.0.0": {
         "dependencies": {
           "AnimatedGif": "1.0.5",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
-          "stig.dll": {}
+          "sitg.dll": {}
         }
       },
       "AnimatedGif/1.0.5": {
@@ -83,7 +83,7 @@
     }
   },
   "libraries": {
-    "stig/1.0.0": {
+    "sitg/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

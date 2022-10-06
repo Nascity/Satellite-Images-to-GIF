@@ -1,6 +1,6 @@
 ﻿using AnimatedGif;
 
-namespace stig
+namespace SITG
 {
 	static internal class GIFmaker
 	{

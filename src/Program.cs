@@ -1,33 +1,23 @@
-﻿namespace stig
+﻿namespace SITG
 {
 	static public class Program
 	{
 		static async Task Main(string[] args)
 		{
-			if (args.Length == 6)
+			try
 			{
-				args.Append("output");
-				args.Append("out");
-			}
-			else if (args.Length == 7)
-			{
-				args.Append("out");
-			}
-			else if (args.Length == 8)
-			{
+				var arguments = new Arguments(args).Process();
 
-			}
-			else
-			{
-				SITGmain.HelpMsg();
-				return;
-			}
+				int? len = await SITGmain.SitgMain(arguments);
 
-			int? len = await SITGmain.SitgMain(args);
-
-			if (len != null)
+				if (len != null)
+				{
+					await GIFmaker.Make($"{arguments[7]}\\{arguments[6]}", int.Parse(arguments[5]), len);
+				}
+			}
+			catch (Exception e)
 			{
-				await GIFmaker.Make($"{args[7]}\\{args[6]}", int.Parse(args[5]), len);
+				Console.WriteLine(e.Message);
 			}
 		}
 	}
