@@ -18,7 +18,8 @@ Retrieves satellite images using KMA Open-API and converts them to a single GIF 
 ```
 ===== USAGE
 
-sitg --data: <DATA> --area: <AREA> --time: <TIME> --interval: <INTERVAL> --filename: <FILENAME> --directory: <DIRECTORY>
+sitg --data: <DATA> --area: <AREA> --time: <TIME>
+     --interval: <INTERVAL> --filename: <FILENAME> --directory: <DIRECTORY>
 
 ## DATA
 ir: 적외영상
