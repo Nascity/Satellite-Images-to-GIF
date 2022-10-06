@@ -11,9 +11,9 @@ namespace SITG
 ($@"
 ===== Usage
 
-sitg <pageNo> <numOfRows> <data> <area> <time> <interval> <(opt) filename> <(opt) directory>
+sitg --data: <DATA> --area: <AREA> --time: <TIME> --interval: <INTERVAL> --filename: <FILENAME> --directory: <DIRECTORY>
 
--- data
+## DATA
 ir: 적외영상
 vi: 가시영상
 wv: 수증기영상
@@ -21,17 +21,24 @@ sw: 단파적외영상
 rbgt: RGB컬러
 rgbdn: RGB주야간합성
 
--- area
+## AREA
 fd: 전구
 ea: 동아시아
 ko: 한반도
 
--- time
+## TIME
 YYYYMMDD 양식으로 입력
 
--- interval
+## INTERVAL (Optional)
 시간 간격(분)을 2의 배수로 입력
-(기본값은 2분)");
+(기본값은 2분)
+
+## FILENAME (Optional)
+출력할 파일명 입력
+(확장자명 없이)
+
+## DIRECTORY
+출력할 폴더명 입력");
 		}
 
 		/// <summary>
