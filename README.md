@@ -13,11 +13,9 @@ Retrieves satellite images using KMA Open-API and converts them to a single GIF 
 
 - Program is not functioning when optional arguments are not passed.
 
-## Usage (WIP ─ needs to be worked on)
+## Usage
 
 ```
-===== USAGE
-
 sitg --data: <DATA> --area: <AREA> --time: <TIME>
      --interval: <INTERVAL> --filename: <FILENAME> --directory: <DIRECTORY>
 
@@ -47,8 +45,6 @@ YYYYMMDD 양식으로 입력
 
 ## DIRECTORY (Optional)
 출력할 폴더명 입력
-
-===== USAGE
 ```
 
 ## Demo
@@ -56,9 +52,7 @@ YYYYMMDD 양식으로 입력
 Options:
 
 ```
-stig 1 10 ir ko 20221001 16 out output
-```
-
+stig --data: ir --area: ko --time: 20221001 --interval: 16
 Output:
 
 ![output](img/output_resized.gif)
