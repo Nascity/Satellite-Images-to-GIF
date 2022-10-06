@@ -1,4 +1,4 @@
-# Satellite images to GIF (WIP)
+# Satellite Images to GIF (SItG)
 
 Retrieves satellite images using KMA Open-API and converts them to a single GIF file with AnimatedGif package.
 
@@ -16,26 +16,39 @@ Retrieves satellite images using KMA Open-API and converts them to a single GIF 
 ## Usage (WIP ─ needs to be worked on)
 
 ```
-stig <pageNo> <numOfRows> <data> <area> <time> <interval> <(opt) filename> <(opt) directory>
+===== USAGE
+
+sitg --data: <DATA> --area: <AREA> --time: <TIME> --interval: <INTERVAL> --filename: <FILENAME> --directory: <DIRECTORY>
+
+## DATA
+ir: 적외영상
+vi: 가시영상
+wv: 수증기영상
+sw: 단파적외영상
+rbgt: RGB컬러
+rgbdn: RGB주야간합성
+
+## AREA
+fd: 전구
+ea: 동아시아
+ko: 한반도
+
+## TIME
+YYYYMMDD 양식으로 입력
+
+## INTERVAL (Optional)
+시간 간격(분)을 2의 배수로 입력
+(기본값은 2분)
+
+## FILENAME (Optional)
+출력할 파일명 입력
+(확장자명 없이)
+
+## DIRECTORY
+출력할 폴더명 입력
+
+===== USAGE
 ```
-**data**
-- ir: 적외영상
-- vi: 가시영상
-- wv: 수증기영상
-- sw: 단파적외영상
-- rbgt: RGB컬러
-- rgbdn: RGB주야간합성
-
-**area**
-- fd: 전구
-- ea: 동아시아
-- ko: 한반도
-
-**time**
-- YYYYMMDD 양식으로 입력
-
-**interval**
-- 시간 간격(분)을 2의 배수로 입력 (기본값은 2분)
 
 ## Demo
 
