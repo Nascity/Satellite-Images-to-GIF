@@ -53,6 +53,8 @@ Options:
 
 ```
 stig --data: ir --area: ko --time: 20221001 --interval: 16
+```
+
 Output:
 
 ![output](img/output_resized.gif)
