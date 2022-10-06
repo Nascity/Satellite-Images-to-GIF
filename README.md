@@ -45,7 +45,7 @@ YYYYMMDD 양식으로 입력
 출력할 파일명 입력
 (확장자명 없이)
 
-## DIRECTORY
+## DIRECTORY (Optional)
 출력할 폴더명 입력
 
 ===== USAGE
