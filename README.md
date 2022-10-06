@@ -11,7 +11,7 @@ Retrieves satellite images using KMA Open-API and converts them to a single GIF 
 
 - Add a feature to change gif speed.
 
-- Program is not functioning when optional arguments are not passed.
+- ~~Program is not functioning when optional arguments are not passed.~~ FIXED
 
 ## Usage
 
