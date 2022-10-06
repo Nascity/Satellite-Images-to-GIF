@@ -9,7 +9,7 @@ namespace SITG
 		{
 			Console.WriteLine
 ($@"
-===== Usage
+===== USAGE
 
 sitg --data: <DATA> --area: <AREA> --time: <TIME> --interval: <INTERVAL> --filename: <FILENAME> --directory: <DIRECTORY>
 
@@ -38,7 +38,10 @@ YYYYMMDD 양식으로 입력
 (확장자명 없이)
 
 ## DIRECTORY
-출력할 폴더명 입력");
+출력할 폴더명 입력
+
+==== USAGE
+");
 		}
 
 		/// <summary>
