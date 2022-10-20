@@ -9,6 +9,8 @@ Retrieves satellite images using KMA Open-API and converts them to a single GIF 
  
 ## Bugs & Todos
 
+- Rewrite [SITGmain.c](src/SITGmain.cs); it's a horrible mess.
+
 - Add a feature to change gif speed.
 
 - ~~Program is not functioning when optional arguments are not passed.~~ FIXED
