@@ -1,11 +1,10 @@
 ﻿using System.Net.Http.Headers;
 
-namespace SITG
+namespace SitGIF2
 {
 	internal class KMA
 	{
 		#region 키
-		private readonly string key = "WuYigYpzVdnTnYYq9TrIRJtcQmYHHevRI2ljxaarYXFGuiv6RbaZXbAOAeie9MGApsdH%2B8hDjGb5YKJ8cv5kIw%3D%3D";
 		private readonly string ver = "0.1";
 		#endregion
 
@@ -27,7 +26,7 @@ namespace SITG
 		#region 생성자
 		internal KMA(string[] args)
 		{
-			_serviceKey = key;
+			_serviceKey = SITG.Secret.key;
 			_pageNo = args[0];
 			_numOfRows = args[1];
 			_dataType = "JSON";
